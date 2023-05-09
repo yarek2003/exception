@@ -6,4 +6,5 @@ public class Main {
         String confirmPassword = "password_A1*";
 
     }
+
 }
