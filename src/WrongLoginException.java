@@ -3,7 +3,6 @@ public class WrongLoginException extends RuntimeException {
     public WrongLoginException() {
         this(DEFAULT_MESSAGE);
     }
-
     public WrongLoginException(String message) {
         super(message);
     }

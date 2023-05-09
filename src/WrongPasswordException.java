@@ -3,7 +3,6 @@ public class WrongPasswordException extends RuntimeException {
     public WrongPasswordException() {
         this(DEFAULT_MESSAGE);
     }
-
     public WrongPasswordException(String message) {
         super(message);
     }
