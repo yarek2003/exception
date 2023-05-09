@@ -5,7 +5,6 @@ public class Main {
         String password = "password_A11111111111111110";
         String confirmPassword = "password_A1*";
 
-
         try {
             check(login, password, confirmPassword);
         } catch (WrongLoginException | WrongPasswordException t) {
@@ -13,7 +12,6 @@ public class Main {
         } finally {
             System.out.println("Логин и пароль обработаны");
         }
-
     }
     public static boolean check(String login, String password, String confirmPassword) {
         if (!login.matches("[a-zA-Z0-9_]+")) {
