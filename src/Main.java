@@ -5,7 +5,6 @@ public class Main {
         String password = "password_A11111111111111110";
         String confirmPassword = "password_A1*";
 
-
     }
 
 }
